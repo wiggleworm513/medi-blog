@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.Link {
+  text-align: center;
+}
+
+.Content {
+  min-height: 450px;
+}
