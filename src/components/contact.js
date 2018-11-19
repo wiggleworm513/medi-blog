@@ -4,7 +4,7 @@ import Form from "react-jsonschema-form";
 const schema = {
   title: "Contact Us",
   type: "object",
-  required: ["subject", "details"],
+  required: ["subject", "details", "email"],
   properties: {
     subject: {
       type: "string",
@@ -37,6 +37,11 @@ const uiSchema = {
 };
 
 export default class Contact extends Component {
+
+  handleSubmit(){
+    //Submit the form data to firebase ??  
+  }
+
   render() {
     return (
       <Form

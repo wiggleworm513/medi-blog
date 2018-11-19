@@ -16,6 +16,10 @@ code {
 
 .Link {
   text-align: center;
+  background-image: url('./assets/menu_bar.png');
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 50px;
 }
 
 .Content {
